@@ -1,4 +1,6 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
+console.log("\tWelcome to my CLI simple calculator");
 const answer = await inquirer.prompt([
     { message: "Enter First Value", type: "number", name: "firstNumber" },
     {
